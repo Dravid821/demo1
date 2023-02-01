@@ -10,6 +10,6 @@ app.get('/View',function(req,res){
     res.send('welcome to View Page');
 })
 app.get('/Contact',function(req,res){
-    res.send('welcome to Contact Page');
+    res.send('welcome to Contact Page kjkj');
 })
 app.listen(8000);
