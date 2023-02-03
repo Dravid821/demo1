@@ -9,9 +9,6 @@ app.get('/About',function(req,res){
 app.get('/View',function(req,res){
     res.send('welcome to View Page');
 })
-app.get('/more1',function(req,res){
-    res.send('welcome tomore Page');
-})
 app.get('/Contact',function(req,res){
     res.send('welcome to Contact Page');
 })
